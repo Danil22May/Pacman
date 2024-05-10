@@ -10,5 +10,15 @@
     <div class="container">
         <img src="/media/pacman.png" alt="pacman" class="pacman">
     </div>
+    <audio controls autoplay>
+        <source src="./media/audio/Pacman-Game-Start-Sound.mp3" id="audio" type="audio/mpeg"> 
+    </audio>
+    <script>
+        let audio = document.getElementById("audio");
+      
+        window.onload = () => {
+          audio.play();
+        }
+    </script>
 </body>
 </html>
